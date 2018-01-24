@@ -5,5 +5,7 @@ public class Node {
     public Node (char a)
     {
         k=a;
+    }public String toString() {
+        return k.toString();
     }
 }
