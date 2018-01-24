@@ -65,8 +65,8 @@ public class Homework1 {
 
 	public static void main(String[] args) {
 		// Begin of arguments input sample
-		String profix = "251-*32*+";
-		//String profix = args[0];
+		//String profix = "251-*32*+";
+		String profix = args[0];
 		for (int i = 0; i < profix.length(); i++) {
 			KK.add(profix.charAt(i));
 		}
